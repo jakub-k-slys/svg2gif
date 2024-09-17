@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "svg2gif"
+version = "0.1.0"
+description = "Converts SVG format into GIF format"
+authors = ["Jakub Slys"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^10.4.0"
+selenium = "^4.24.0"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
